@@ -1,0 +1,37 @@
+{
+	margin: 0;
+	color: white;
+}
+header {
+	background-color: #A36BFF;
+}
+section {
+	background-color: #FFA36B;
+}
+article {
+	background-color: #FF6B7D;;
+}
+footer {
+	background-color: #78DBBC;
+}
+/* Propiedades de texto */
+h1{
+	letter-spacing: 1px; /* acepta medidas absolutas, relativas y flexibles */
+	text-align: center; /* Left | Right | Justify */
+		text-shadow:  10px 20px #FF0000;
+}
+.parrafo1 {
+	word-spacing: 5px;
+}
+.parrafo2{
+	text-transform: uppercase; /* lowercase | capitalize */
+}
+h3{
+	text-decoration: overline; /* underline | overline underline | line-through */
+	text-decoration-color: red; /* RGB | RGBA | HSL | HSLA | #XXXXXX */
+	text-decoration-style: wavy; /* solid | double */
+}
+h4{
+	text-shadow:  1px 2px #FF0000;
+}
+/* Bordes
