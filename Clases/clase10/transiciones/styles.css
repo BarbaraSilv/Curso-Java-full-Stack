@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	font-family: 'Lobster', sans serif;
+	text-align: center;
+	font-size: 3rem;
+}
+h1:hover {
+	transition-property: color;
+	transition-duration: 2s; /* s | ml */
+	transition-timing-function: ease-in-out; /* ease | ease-out | ease-in | etc */
+	color: #00d4ff;
+}
+#transicion {
+	width: 20vw;
+	height: 5vh;
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(247,0,0,0.6867121848739496) 24%, rgba(240,153,0,1) 41%, rgba(255,252,0,1) 57%, rgba(89,240,0,1) 76%, rgba(0,254,255,1) 100%);
+}
+#transicion:hover {
+	transition: width 2s ease-in-out;
+	width: 100vw;
+}
+.flex-container {
+	margin: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boton {
+	height: 10vh;
+	width: 20vw;
+	cursor: pointer; /* grab | text | help | move | zoom-in | zoom-out */
+	transition: 2s box-shadow ease-out;
+}
+.boton:hover {
+	background-color: black;
+	color: white;
+	font-size: 1.1rem;
+	transform: scale(1.2);
+	border: 1px;
+	box-shadow: 0px 5px 2px tomato;
+}
