@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdlivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="control.js" type="text/javascript" ></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h1> Ingreso al sistema</h1>
+    <form id="form" action="/">
+        <div>
+            <label for="email">Usuario</label><br>
+            <input type="email" id="" name="usuario" placeholder="Dirección de correo" required= ""><br>
+            <div class = "ivalid-feedback"> 
+                Ingrese un correo electronico válido
+            </div>
+        </div>
+        <div id="app">
+            <div>  
+                <label for="password"> Clave</label><br>
+                <input class= "form-control" type="password" id="password" name="password" placeholder="Contraseña" 
+                v-model = "password"/> <br>
+                {{ estado }}
+            </div>
+        </div>
+        
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
